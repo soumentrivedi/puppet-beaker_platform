@@ -1,0 +1,17 @@
+{
+	"author": "Soumen Trivedi",
+	"dependencies": [{
+			"version_requirement": ">= 1.1.0",
+			"name": "puppetlabs/vcsrepo"
+		}
+	],
+	"license": "",
+	"name": "soumentrivedi/puppet-beaker_platform",
+	"operatingsystem_support": [],
+	"project_page": "",
+	"requirements": [],
+	"source": "",
+	"summary": "Beaker Platform for Puppet Acceptance Testing using Docker nodeset",
+	"tags": [],
+	"version": "0.1.0"
+}

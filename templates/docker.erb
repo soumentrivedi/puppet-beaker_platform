@@ -1,0 +1,7 @@
+# /etc/sysconfig/docker
+#
+# Other arguments to pass to the docker daemon process
+# These will be parsed by the sysv initscript and appended
+# to the arguments list passed to docker -d
+
+other_args="-H <%= @docker_tcp_connection %> -H <%= @docker_socket %> <% @docker_dns.each do |dns_val| -%> --dns <%= dns_val %><% end -%>"
