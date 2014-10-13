@@ -36,7 +36,7 @@ class beaker_platform::repo {
     ensure   => installed,
     source   => "https://anorien.csc.warwick.ac.uk/mirrors/epel/6/x86_64/epel-release-6-8.noarch.rpm",
     provider => rpm,
-    require  => [Yumrepo['rhscl_v8314_epel'], Exec['wget_oel_repo'], Yumrepo['base']],
+    require  => [Yumrepo['rhscl_v8314_epel'], Exec['wget_oel_repo']],
   }
 
   package { 'puppetlabs-release':
