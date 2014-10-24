@@ -6,13 +6,13 @@
 		},
 		{
 			"version_requirement": ">= 0.1.0",
-			"name": "platform_repos"
+			"name": "iaac/platform_repos"
 		}
 	],
 	"license": "",
-	"name": "soumentrivedi/puppet-beaker_platform",
+	"name": "iaac/beaker_platform",
 	"operatingsystem_support": [],
-	"project_page": "",
+	"project_page": "http://stash.ordsvy.gov.uk/projects/IN/repos/beaker_platform",
 	"requirements": [],
 	"source": "",
 	"summary": "Beaker Platform for Puppet Acceptance Testing using Docker nodeset",
